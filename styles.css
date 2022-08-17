@@ -1,0 +1,100 @@
+*{
+    padding: 0;
+    margin: 0;
+     font-family: 'Poppins', sans-serif;
+}
+.full-background{ 
+    min-height:100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(images/Green\ Belt.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    color:#fff;
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+}
+nav{
+    display: flex;
+    padding-bottom: 5.5px;
+    gap:15px;
+    justify-content:center;
+    align-items: center;
+    background-color: #128c7e;
+    border-bottom: 15px;
+}
+h3{
+    font-weight: 900;
+    color: rgba(252, 252, 0, 0.975);
+}
+.medium{
+    padding-top: 1rem;
+     padding-bottom: 1rem;
+    font-size: 3rem;
+    width:100%;
+    font-weight: 300;
+   
+
+}
+
+.bolder{
+    font-size: 7rem;
+    width:100%;
+    color: blanchedalmond;
+    
+}
+.cricket {
+    padding-top: 2rem;
+    width:70%;
+    margin:auto;
+    border-radius: 17px;
+    padding-bottom: 1rem;
+}
+footer{
+     background-color: rgb(31, 26, 21);
+     padding-top: 10px;
+}
+
+.buttom{
+    display: flex;
+    gap: 17px;
+    justify-content: center;
+    background-color: rgb(31, 26, 21);
+    border-radius: 15px;
+    padding: 3px;
+    color: #fff;
+}
+a{
+    color: #fff;
+}
+main{
+    padding-bottom: 15px;
+}
+
+
+button{
+    width:40%;
+    margin:auto;
+    cursor: pointer;
+    background-color:  #128c7e;
+    color:#fff;
+    border-radius: 15px;
+    
+}
+.container {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: nowrap;
+}
+.contact{
+    text-align: center;
+    padding-top: 10px;
+    gap:3px;
+}
+.decoration{
+    text-decoration: none;
+}
+
+
